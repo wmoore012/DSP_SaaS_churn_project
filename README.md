@@ -43,3 +43,8 @@ pip install -r requirements.txt
 2. Run notebooks in order:
    - `01_Feature_Engineering.ipynb`
    - `02_Clustering_Marketing_Avatars.ipynb`
+   - `03_EDA_Project.ipynb`
+   - `04_Churn_Project.ipynb`
+   - `05_Churn_Project_Revised.ipynb`
+   - `06_Cleaned_Datasets.ipynb`
+   - `07_Creating_Modeling_Data.ipynb`
