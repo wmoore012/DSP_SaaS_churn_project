@@ -20,7 +20,10 @@ env/
 data/raw/
 data/processed/
 models/
+# Exports generated in project submodules
 exports/
+*/exports/
+Modeling/exports/
 
 # VS Code
 .vscode/
