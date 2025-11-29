@@ -1,6 +1,13 @@
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-plotly
+# Minimal requirements to run the clustering notebooks and shared modeling utilities only
+# Scope: Modeling/Clustering_Marketing_Avatars.ipynb, notebooks/02_Clustering_Marketing_Avatars.ipynb,
+#        Modeling/feature_engineering_utils.py, Modeling/k_selection.py
+# Note: We intentionally exclude packages used only by other notebooks (e.g., lightgbm, shap).
+
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.15
+# Needed if your dataset is stored as Parquet and you want pd.read_parquet to work
+pyarrow>=12
