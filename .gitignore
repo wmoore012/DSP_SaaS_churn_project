@@ -27,6 +27,10 @@ Modeling/exports/
 # Large dataset files
 Modeling/Dataset/DSBA_6276_model_dataset*
 Modeling/Dataset/DSBA_6276_model2_dataset*
+Modeling/Dataset/DSBA_6276_model4_dataset*
 
 # VS Code
 .vscode/
+
+# PyCharm
+.idea/

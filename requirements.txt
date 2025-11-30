@@ -9,5 +9,9 @@ scikit-learn>=1.2
 matplotlib>=3.7
 seaborn>=0.12
 plotly>=5.15
+# Kaleido is required for Plotly static image export (fig.write_image); pin to stable release
+kaleido>=0.2.1
 # Needed if your dataset is stored as Parquet and you want pd.read_parquet to work
 pyarrow>=12
+# For overlap-free text annotations in Matplotlib
+adjustText>=0.8
