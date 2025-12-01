@@ -1,5 +1,5 @@
 # Minimal requirements to run the clustering notebooks and shared modeling utilities only
-# Scope: Modeling/Clustering_Marketing_Avatars.ipynb, notebooks/02_Clustering_Marketing_Avatars.ipynb,
+# Scope: Modeling/Clustering_Marketing_Avatars.ipynb, notebooks/02_Clustering_Marketing_Avatars backup.ipynb,
 #        Modeling/feature_engineering_utils.py, Modeling/k_selection.py
 # Note: We intentionally exclude packages used only by other notebooks (e.g., lightgbm, shap).
 
@@ -9,8 +9,8 @@ scikit-learn>=1.2
 matplotlib>=3.7
 seaborn>=0.12
 plotly>=5.15
-# Kaleido is required for Plotly static image export (fig.write_image); pin to stable release
-kaleido>=0.2.1
+# Kaleido is required for Plotly static image export (fig.write_image); use v1+ for Plotly 6.1+
+kaleido>=1.2.0
 # Needed if your dataset is stored as Parquet and you want pd.read_parquet to work
 pyarrow>=12
 # For overlap-free text annotations in Matplotlib
