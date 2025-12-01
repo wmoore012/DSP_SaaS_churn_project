@@ -78,6 +78,8 @@ Browse key PNGs directly in the repository under `artifacts/charts/static/`. Hig
 - Stability diagnostics (e.g., `stability_ari_bar.png`, `stability_ari_matrix.png`, `stability_summary_table.png`)
 - Z‑score heatmaps for feature differences (e.g., `zscore_heatmap_filtered.png`)
 
+![PCA Scatter by Cluster + Avatars for Marketing](Modeling/pca_scatter_by_cluster_marketing.png)
+
 Additional static charts are generated as the notebook evolves; browse the full gallery in `artifacts/charts/static/`.
 
 ### Interactive Charts (HTML)
